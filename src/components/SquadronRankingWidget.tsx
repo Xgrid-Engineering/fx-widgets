@@ -116,8 +116,6 @@ const Rankings = ({
   getIconClass,
 }: RankingsProps) => {
   const getMedal = (position: number) => {
-    console.log(position);
-    console.log("hi");
     if (!position) return medal;
 
     switch (position) {
