@@ -6,6 +6,10 @@ type TWCA = {
   score: string;
   img: string;
   ringColor?: string;
+  rank?: string;
+  weakCase?: string;
+  cause?: string;
+  action?: string;
 };
 
 type TMerit = {

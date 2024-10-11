@@ -54,3 +54,31 @@
 .wca-activity {
   border-right: 2px solid var(--separator);
 }
+
+.case-tag p {
+  color: var(--text);
+}
+.case-tag span,
+.cadet-name {
+  color: var(--heading);
+}
+
+.cadet-name {
+  font-size: 16px !important;
+  color: var(--heading);
+}
+
+.danger {
+  color: var(--red) !important;
+}
+
+.case-description {
+  margin-left: 30px;
+}
+
+.rank {
+  color: var(--text) !important;
+}
+.rank span {
+  color: var(--heading) !important;
+}

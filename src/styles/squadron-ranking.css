@@ -1,0 +1,91 @@
+.sqn-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  color: var(--text);
+}
+
+.sqn-3 {
+  background-color: #e6f7e6;
+  border: 1px solid #52c41a;
+}
+.sqn-2 {
+  background-color: #ffe6e6;
+  border: 1px solid #f5222d;
+}
+.sqn-1 {
+  background-color: #e6e6ff;
+  border: 1px solid #597ef7;
+}
+.sqn-4 {
+  background-color: #fff7e6;
+  border: 1px solid #faad14;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.medal {
+  color: transparent;
+}
+
+.position-4 {
+  color: var(--text);
+  border: 1px solid var(--heading);
+}
+
+.sqn-info {
+  flex-grow: 1;
+}
+.sqn-info p {
+  color: var(--heading);
+}
+
+.sqn-points {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.chevron {
+  margin-right: 18px;
+}
+.sqn-header {
+  padding: 5px 0px;
+  margin-bottom: 16px;
+}
+
+.sqn-header p {
+  color: var(--heading);
+  font-size: 16px;
+  line-height: 22px;
+}
+.sqn-header span {
+  color: var(--text);
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.border-white {
+  border-right: 1.3px solid white;
+  padding-right: 12px;
+}
+
+.action-btn {
+  padding: 6px 18px;
+  border: 1px solid var(--text);
+  border-radius: 4px;
+}
+
+.rotate img {
+  rotate: 180deg;
+}

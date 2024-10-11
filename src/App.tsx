@@ -1,4 +1,6 @@
 import "./App.css";
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+import "primereact/resources/primereact.min.css";
 import DesciplineInfo from "./components/DesciplineInfo";
 import Merit from "./components/Merit";
 import WCA from "./components/WCA";
@@ -8,6 +10,7 @@ import { chartData } from "./lib/data";
 import Attendance from "./components/Attendance";
 import Pending from "./components/Pending";
 import SquadronAttendance from "./components/SquadronAttendance";
+import SquadronRankingWidget from "./components/SquadronRankingWidget";
 
 function App() {
   return (
@@ -16,6 +19,7 @@ function App() {
         <WCA />
         <Merit />
         <DesciplineInfo />
+        <SquadronRankingWidget />
         <ActivityDetails />
         <LineChart data={chartData} />
         <Attendance />
