@@ -6,18 +6,11 @@
   border-radius: 4px;
   padding: 16px;
   max-height: 299px;
-  max-width: 491px;
   overflow-y: auto;
 }
 
 .pie-chart {
   max-width: 207px;
-}
-
-.circle {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
 }
 
 .decipline-grade-text {

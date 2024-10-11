@@ -1,0 +1,19 @@
+.pending {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 16px;
+  max-height: 299px;
+  overflow-y: auto;
+}
+
+.pending-details-row {
+  padding: 10px 0;
+}
+
+.pending-details-row-1 p {
+  color: var(--heading);
+}
+
+.pending-details-row-2 p {
+  color: var(--text);
+}

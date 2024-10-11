@@ -31,3 +31,18 @@ type TChartData = {
   attendance: number;
   activities: number;
 };
+
+type TPending = {
+  code: string;
+  name: string;
+  instructor: string;
+  date: string;
+  timeSpans: string;
+};
+
+type TSquadronAttendance = {
+  name: string;
+  present: number;
+  disposal: number;
+  color: string;
+};

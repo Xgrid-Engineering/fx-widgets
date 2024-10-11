@@ -5,6 +5,9 @@ import WCA from "./components/WCA";
 import ActivityDetails from "./components/ActivityDetails";
 import LineChart from "./components/LineChart";
 import { chartData } from "./lib/data";
+import Attendance from "./components/Attendance";
+import Pending from "./components/Pending";
+import SquadronAttendance from "./components/SquadronAttendance";
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
         <DesciplineInfo />
         <ActivityDetails />
         <LineChart data={chartData} />
+        <Attendance />
+        <Pending />
+        <SquadronAttendance />
       </div>
     </div>
   );

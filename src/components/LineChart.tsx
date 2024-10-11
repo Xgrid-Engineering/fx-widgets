@@ -27,7 +27,7 @@ type LineChartProps = {
   data: ChartData[];
 };
 
-const LineChart = ({ data }: LineChartProps) => {
+export default function LineChart({ data }: LineChartProps) {
   const chartData = {
     labels: data.map((item) => item.week),
     datasets: [
@@ -50,13 +50,39 @@ const LineChart = ({ data }: LineChartProps) => {
 
   const options = {
     responsive: true,
+    scales: {
+      x: {
+        grid: {
+          display: false,
+        },
+      },
+      y: {
+        grid: {
+          display: false,
+        },
+      },
+    },
+    plugins: {
+      legend: {
+        display: false,
+      },
+    },
   };
 
   return (
-    <div className="line-chart-container">
+    <div className="line-chart-container flex-col gap-2 items-center">
       <Line data={chartData} options={options} />
+      <p className="stat-text">No. of Weeks</p>
+      <div className="flex-row items-center justify-center gap-4">
+        <div className="flex-row gap-2 items-center">
+          <div className="circle" style={{ backgroundColor: "#A27F5B" }}></div>
+          <p className="stat-text">Attendance</p>
+        </div>
+        <div className="flex-row gap-2 items-center">
+          <div className="circle" style={{ backgroundColor: "#5B8BA3" }}></div>
+          <p className="stat-text">Activities</p>
+        </div>
+      </div>
     </div>
   );
-};
-
-export default LineChart;
+}

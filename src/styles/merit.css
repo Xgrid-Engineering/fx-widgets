@@ -3,7 +3,6 @@
   border-radius: 4px;
   padding: 16px;
   max-height: 299px;
-  max-width: 491px;
   overflow-y: auto;
 }
 
@@ -47,8 +46,4 @@ p {
 
 .merit-score p {
   color: #0d192ea3;
-}
-
-.merit-score p:nth-last-of-type(2) {
-  border-right: var(--red);
 }

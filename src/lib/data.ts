@@ -173,3 +173,82 @@ export const chartData = [
   { week: 10, attendance: 92, activities: 70 },
   { week: 11, attendance: 95, activities: 75 },
 ];
+
+export const Pending_Data: TPending[] = [
+  {
+    code: "P001 Log & Parallel",
+    name: "Pending Task 1",
+    instructor: "Instructor A",
+    date: "22 Sep",
+    timeSpans: "10:00 - 12:00",
+  },
+  {
+    code: "P002 GD(P) and 154 GD(P)",
+    name: "Pending Task 2",
+    instructor: "Instructor B",
+    date: "23 Sep",
+    timeSpans: "14:00 - 16:00",
+  },
+  {
+    code: "P003",
+    name: "Pending Task 3",
+    instructor: "Instructor C",
+    date: "24 Sep",
+    timeSpans: "09:00 - 11:00",
+  },
+  {
+    code: "P001 Log & Parallel",
+    name: "Pending Task 1",
+    instructor: "Instructor A",
+    date: "25 Sep",
+    timeSpans: "10:00 - 12:00",
+  },
+  {
+    code: "P002 GD(P) and 154 GD(P)",
+    name: "Pending Task 2",
+    instructor: "Instructor B",
+    date: "26 Sep",
+    timeSpans: "14:00 - 16:00",
+  },
+  {
+    code: "P002 GD(P) and 154 GD(P)",
+    name: "Pending Task 2",
+    instructor: "Instructor B",
+    date: "26 Sep",
+    timeSpans: "14:00 - 16:00",
+  },
+  {
+    code: "P002 GD(P) and 154 GD(P)",
+    name: "Pending Task 2",
+    instructor: "Instructor B",
+    date: "26 Sep",
+    timeSpans: "14:00 - 16:00",
+  },
+];
+
+export const squadronAttendance: TSquadronAttendance[] = [
+  {
+    name: "SQN 1",
+    present: 56,
+    disposal: 8,
+    color: colors.blue,
+  },
+  {
+    name: "SQN 2",
+    present: 18,
+    disposal: 7,
+    color: colors.red,
+  },
+  {
+    name: "SQN 3",
+    present: 44,
+    disposal: 2,
+    color: colors.green,
+  },
+  {
+    name: "SQN 4",
+    present: 52,
+    disposal: 10,
+    color: colors.yellow,
+  },
+];

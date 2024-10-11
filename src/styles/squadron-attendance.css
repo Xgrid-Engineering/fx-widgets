@@ -1,0 +1,18 @@
+.att-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.sqn-detail-card {
+  background-color: #fafafa;
+  padding: 12px 20px;
+  border-radius: 2px;
+}
+.sqn-name {
+  margin-bottom: 24px;
+}
+
+.sqn-name p {
+  color: var(--heading);
+}

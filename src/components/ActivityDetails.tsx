@@ -21,7 +21,7 @@ function ActivityDetails() {
     <div className="activity-details">
       <div className="header flex-row justify-between">
         <div className="total-activities">
-          <h1>{activityData.totalActivities}</h1>
+          <h1 className="fw-500">{activityData.totalActivities}</h1>
           <p>Total Activities</p>
         </div>
 
@@ -50,7 +50,7 @@ function ActivityDetails() {
         <div className="flex-row stat-item gap-2 bg-slate">
           <div className="completed-box">
             <div className="flex-row gap-2 mb-3">
-              <h2 className="fw-600">{activityData.completed}</h2>
+              <h2 className="fw-500">{activityData.completed}</h2>
               <p>({Math.round(completedPercentage)}%)</p>
             </div>
             <h3>Completed</h3>
@@ -70,7 +70,7 @@ function ActivityDetails() {
 
         <div className="stat-item bg-slate">
           <div className="flex-row gap-2 py-1 mb-1">
-            <h2 className="fw-600">{activityData.remaining}</h2>
+            <h2 className="fw-500">{activityData.remaining}</h2>
             <p>({Math.round(remainingPercentage)}%)</p>
           </div>
           <h3 className="mb-1">Remaining</h3>
@@ -78,7 +78,7 @@ function ActivityDetails() {
 
         <div className="stat-item bg-slate">
           <div className="flex-row gap-2 py-1 mb-1">
-            <h2 className="fw-600">{activityData.notEvaluated}</h2>
+            <h2 className="fw-500">{activityData.notEvaluated}</h2>
             <p>({Math.round(notEvaluatedPercentage)}%)</p>
           </div>
           <h3 className="mb-1">Not Evaluated</h3>

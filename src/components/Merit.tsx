@@ -26,7 +26,7 @@ const Row = ({ name, id, img, ringColor, rank, obtained, total }: TMerit) => {
           </div>
 
           <div className="flex-row gap-2 pr-2 merit-score">
-            <p className="fw-500 pr-2">{id}</p>
+            <p className="fw-500 pr-2 border">{id}</p>
             <p className="fw-500">
               Score:{" "}
               <span className="fw-700">

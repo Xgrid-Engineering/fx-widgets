@@ -1,0 +1,53 @@
+.attendance {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 16px;
+  max-height: 299px;
+  overflow-y: auto;
+}
+
+.attendance-row {
+  border-bottom: 1px solid var(--separator);
+  padding: 17px 0 20px 0;
+  gap: 40px;
+}
+
+.stat-value {
+  font-size: 32px;
+  line-height: 18.94px;
+  color: var(--heading);
+}
+
+.stat-text {
+  font-size: 15px;
+  line-height: 18.94px;
+  color: var(--text);
+}
+
+.attendance-detail-card {
+  background: #fafafa;
+  padding: 12px 20px;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+.detail-card-title {
+  margin-bottom: 24px;
+  color: var(--heading);
+}
+
+.present {
+  color: #15803d;
+  font-size: 28px;
+  line-height: 18.8px;
+}
+
+.present-section {
+  border-right: 1px solid var(--separator);
+}
+
+.disposal {
+  color: #b42318;
+  font-size: 28px;
+  line-height: 18.8px;
+}
