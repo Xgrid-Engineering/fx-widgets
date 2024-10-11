@@ -1,0 +1,52 @@
+.descipline-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 16px;
+  max-height: 299px;
+  max-width: 491px;
+  overflow-y: auto;
+}
+
+.pie-chart {
+  max-width: 207px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.decipline-grade-text {
+  font-size: 13px;
+  line-height: 15.74px;
+  color: #0d192e66;
+}
+
+.decipline-grade-text span {
+  color: #0d192e;
+}
+
+.descipline-info-text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.descipline-info-text p:first-child {
+  font-size: 23px;
+  line-height: 28px;
+  color: #292d30;
+}
+.descipline-info-text p:nth-child(2) {
+  font-size: 16px;
+  line-height: 19px;
+  color: #474b4e;
+}

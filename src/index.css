@@ -1,0 +1,34 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-family: "Inter", sans-serif;
+
+  --red: #f24f62;
+  --green: #35dc6e;
+  --yellow: #fcc82d;
+  --heading: #0d192e;
+  --text: #0d192ea3;
+  --light-gray: #0d192e66;
+  --separator: #ededed;
+  --border: #e5e5e5;
+
+  --border-rank-first: #e8b71d;
+  --rank-first-text: #bd9516;
+  --border-rank-second: #bdbec0;
+  --rank-second-text: #707274;
+  --border-rank-third: #b67e10;
+  --rank-third-text: #8e730c;
+  --bg-rank-first: #f0e2a9;
+  --bg-rank-second: #dddee0;
+  --bg-rank-third: #9561383d;
+}

@@ -1,0 +1,57 @@
+.wca {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 16px;
+  max-height: 299px;
+  max-width: 491px;
+  overflow-y: auto;
+}
+
+.wca p {
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #0d192e;
+}
+
+.profile-img {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --ring-color: transparent;
+}
+
+.profile-img-src {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.profile-img::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  border: 2px solid var(--ring-color);
+  border-radius: 50%;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.wca-activity p {
+  color: #b42318;
+}
+
+.wca-row {
+  margin: 14px 0px;
+  padding: 0 2px;
+}
+
+.wca-content-bio p:nth-of-type(1),
+.wca-activity {
+  border-right: 2px solid var(--separator);
+}

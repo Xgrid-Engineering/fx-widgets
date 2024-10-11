@@ -1,0 +1,8 @@
+.line-chart-container {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 16px;
+  max-height: 299px;
+  max-width: 491px;
+  overflow-y: auto;
+}

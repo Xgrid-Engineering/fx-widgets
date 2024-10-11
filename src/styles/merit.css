@@ -1,0 +1,54 @@
+.merit {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 16px;
+  max-height: 299px;
+  max-width: 491px;
+  overflow-y: auto;
+}
+
+.rank-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+  color: #0d192ea3;
+  border: transparent;
+}
+
+.rank-badge[style*="--rank: 1"] {
+  border: 1.3px solid var(--border-rank-first);
+  background-color: var(--bg-rank-first);
+  color: var(--rank-first-text);
+}
+.rank-badge[style*="--rank: 2"] {
+  border: 1.3px solid var(--border-rank-second);
+  background-color: var(--bg-rank-second);
+  color: var(--rank-second-text);
+}
+.rank-badge[style*="--rank: 3"] {
+  border: 1.3px solid var(--border-rank-third);
+  background-color: var(--bg-rank-third);
+  color: var(--rank-third-text);
+}
+
+p {
+  font-size: 14px;
+  line-height: 16.94px;
+  color: #0d192e;
+}
+
+.merit-row {
+  margin: 14px 0px;
+  padding: 0 2px;
+}
+
+.merit-score p {
+  color: #0d192ea3;
+}
+
+.merit-score p:nth-last-of-type(2) {
+  border-right: var(--red);
+}
